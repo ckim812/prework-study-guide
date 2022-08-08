@@ -8,9 +8,10 @@
     <title>Prework Study Guide</title>
   </head>
   <body>
-    <header id="header">
+    <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="vocabulary-section">
@@ -28,7 +29,7 @@
           <li>Repository ("repo"): folder for your projects</li>
           <li>Branch: workspace where you can make changes that don't affect the live site</li>
           <li>Markdown (.md): the way content files are formatted in GitHub; a way to unite for web using plain text; easily converts to HTML</li>
-          <li>Commit Changes: saving a new version of a file you are working on (add/edit/delete); adds changes to your branch</li>
+          <li>Commit Changes: saving a new version of a file you are working on (add/edit/delete); addes changes to your branch</li>
           <li>Pull Request ("PR"): asking for changes on a branch to merge into another branch; a way to discuss and review your work with others</li>
           <li>Merge: once a PR is approved, changes are "pulled in" or merged into the main branch; changes publish/deploy to the live site</li>
           <li>Issue: a way to report new tasks or content fixes; track progress on progress board</li>
@@ -44,19 +45,15 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <u1>
-          <li>inline CSS: (h1 style="color:red;")Prework Study Guide(/h1)</li>
-          <li>internal style sheet: (style) h1 { color: red; } (/style)</li>
-          <li>external CSS style sheet: (link rel="stylesheet" href="./assets/style.css" /)</li>
-          <li>margin: property indicates how much space we want around the outside of an element</li>
-          <li>padding: property adds space around the content inside an element, making the entire element bigger</li>
-          <li>.card {} : the period designates this as a class selector</li>
-          <li>some commands: width: 80%; margin: 40px (top/bottom) auto (left/right); border: 5px solid gray; box-shadow: 5px (x-axis) 10px (y-axis) #888888 (color)</li>
+          <li>style="color:red;": inline CSS to color red</li>
+          <li>(style) h1 { color: red; } (end style): internal style sheet</li>
+          <li>(link rel="stylesheet" href="./assets/style.css" /): external CSS style sheet</li>
         </u1>
       </section>
       <section class="card" id="git-section">
         <h2>Git</h2>
         <u1>
-          <li>git revert SHA: ???</li>
+          <li>git revert SHA</li>
           <li>cd directory: changes the directory</li>
           <li>git clone link-from-github: clones repo from github</li>
           <li>git remote -v: grants remote access from desktop computer</li>
@@ -64,9 +61,8 @@
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
           <li>git add -A: adds all changes</li>
           <li>git commit -m "message": commits changes with a custom message</li>
-          <li>git pull origin main: ensure current branch is up to date before opening a pull request</li>
-          <li>git push origin branch-name: push up all of our changes to github</li>
-          <li>touch style.css: create css file</li>
+          <li>git pull origin main</li>
+          <li>git push origin branch-name</li>
         </u1>
       </section>
       <section class="card" id="javascript-section">
@@ -79,5 +75,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
